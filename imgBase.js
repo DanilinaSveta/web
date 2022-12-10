@@ -1,0 +1,38 @@
+// Файл, где будут храниться все сурсы изображений (аля бд, аля json)
+const stoneImages = {
+    Bely:"https://psv4.userapi.com/c237331/u260357384/docs/d51/d6274b6e05c2/bely.png?extra=tg0uoPb43ww0L6im2mkzlHLETufRigwTT7uPCGXdKUtIF-afApLZtF6y8VDSBMk_ss7RBSOIoQiCHtD-FVXN-3uhEn2KDVQWeQAit3iaXAPuVp1z43cVRHjid9QtdgLw3_UC5pSamqlMMpaJ0GCZ3IUs",
+    Ametistovy: "https://psv4.userapi.com/c237331/u260357384/docs/d44/0ef885481917/ametistovy.png?extra=TfbdjXwOO7_QZ5uPF8676OkB8qVu1DuqF4dNAYcfeDdXDbSuAYfE3-TVuTSOqzZ5Z7eqUjFl9U_25XMcrJk_BwJH0OkJRTB6m-KjPbipKd6Qu1ZHn3Lh9pdj0vkSxVgnpKT7u5ss50tq-RzSG0Sq_L07",
+    Azur: "https://psv4.userapi.com/c237331/u260357384/docs/d56/a828f176b6a7/azur.png?extra=yNHfRLmUnVl6d5GERChnrQ0S9EyLoycu4jg3Nm608LHnoEEBXLWQ5nO6wmFKfAhr2ULJ9hk335xVXXqL0FfLj17CC9r1cpW25sutm5I-K_sFXvKzOhDv2wmtGg4JdaHmQndzQXMbqscMG0asdMhVoREX",
+    Cherny: "https://psv4.userapi.com/c237331/u260357384/docs/d40/b1455129c964/cherny.png?extra=crmiDtaSKGiqt2cYNKA7LTpwTk0bU2gZSpTW2QJIgOVUl4QSFIGV2HAgjiQKQ-2_uJNlvcEYZqn4__e3rdfLWrlmrRP1KXRznZlSA6qDNPAihWOIta8Hdxma-Mly7E6DZRmJZ4CPmiezQK_vBIzCjqOu.png",
+    Fioletovy: "https://psv4.userapi.com/c237331/u260357384/docs/d36/5a6d2fe144d7/fioletovy.png?extra=vVZ-_pfdhBCkDq3mL4yEh_IH57pK_IMW4tI6nlDNuMQH43hB70MjIZjR22hw9UExFmyrvKixHwsSkUr0u8J2v7rdH_s0b_hcqw1uOc5fbDkKVN4A--pPHEfkIpZ9KUN85EmdHhM39xWCgKMiZR6sk3xc",
+    Kobaltovy: "https://psv4.userapi.com/c237331/u260357384/docs/d47/685216977eef/kobaltovy.png?extra=0doASsVzkAcc5KwNhN4vQfYOJ6PE8Pm-zqWk5EEWxP61J6qLq5MfXqP2QgAe7_-OJzqdRjyRO6Is3i7QW92MNiq0mkhpFxjg7ByyFJJKkpqJ_b2-LjuWAG5TofclNTsblzCGTR00RcS-F3-DpMVzcTQ3",
+    Kofeyny: "https://psv4.userapi.com/c237331/u260357384/docs/d47/9e597c9ee86a/kofeyny.png?extra=ruaAv4tPtzcceTVMdGkLAD66u8vEeia3SXjMgwXJwtr5jGEg3nKM0js-7W7S33aUorR-_prm2DdcozseWmACbFjHlovfZ56gq3_ZvkvrCH2qIaOlJEpLfJ6M0RymKa5YbU9OiMgX4yd8SPcC_zOsTTRq",
+    Malakhit: "https://psv4.userapi.com/c237331/u260357384/docs/d8/a7fe175e2fff/malakhit.png?extra=sjZLtHWh_TDO3qMsP_MU0k-DktjlzCOg4bK33wPm0fj8LKnGWHbY77_AFZ1WQiVnwefrDshLUTXEM6-_-uNZmOj_c7CYncsbBcfxFU25uMjP2f1VJyQXTTAJeVG3eTF9IQePvKoqOVWm25s8qne7aG5t",
+    Montana: "https://psv4.userapi.com/c237331/u260357384/docs/d51/98e91e8ae967/montana.png?extra=YJ3R67i1R5bGkJ4kX-SJMlU9sguBH0GxhFMtAUzMfd4Dyuzbwwg23ElGaxCMX35RfZL1IVLa7e5hUV-CPPWQiMcY_p52wzUN7MGS37EJmgoS41moC0nOU1OEovIKumzp5BTVwMjlAX61KcqSv_Mlk5uQ",
+    Myatny: "https://psv4.userapi.com/c237331/u260357384/docs/d6/b39ebe5454fc/myatny.png?extra=YmPvtoHAHc5WcxCJaLuWifnaPiEa4uX6ooUfI5kkuOKVctkdn-vc3w0Tm8SDIH3qL0oW_vAQcInca9rhVV6y24kGDt0nkc2YsqtDQprJoEbvyzPC83SvDvweS6g74axKwxkAFpDPxV_Nb5qY3-I1HF6g",
+    Olivych: "https://psv4.userapi.com/c237331/u260357384/docs/d10/474b81c385d8/olivych.png?extra=K2Krlr31kYCRTVabYgS_LZ2Fz5i0pC9HRnXwebsBzBFnZgYqONU09Fir7dEvdrKY33FgElgoXSPUR0Oum3WvNl2qIuKjsj-ws1RtjrI42De96tCKSNzF33L4o_15SIvMNAdTnIcuIrn-SwFbZ941rpUL",
+    Rubinovy_zakaaaaaaat: "https://psv4.userapi.com/c237331/u260357384/docs/d37/3cda05067ffc/rubinovy_zakaaaaaaat.png?extra=tXgZndNI7Ue1ZMrIJkpoQnAGWLCYNFEhXV8D_QYZDwx8r91bS1SzZIa89wMIqnMA5-ARV6n_T0seqhNH6fAd0FhLzV1sKIhhgQ-ZNwz5WPhkgSfdhOZYtI8ri1NDmVxOOzS85y8xSkqT_SY3BzTasK26",
+    Salatovy: "https://psv4.userapi.com/c237331/u260357384/docs/d24/c209d54b312d/salatovy.png?extra=jjlx3qKv-HgKibHcoD-jUB0noKyYPBhHItbCKyotbVapjAp0Q0NRTvy8w1-QfPBhHTK6ZxrsJ9RtYTuK0ZXxlAjspOVvBJnDPR39BtRfYKmc1V3CZvj_iOq3yKdbHFIhcx0PLXG1jag4F94aCKqtwmfh",
+    Sapshir: "https://psv4.userapi.com/c237331/u260357384/docs/d25/e0f2480a4444/Sapshir.png?extra=g73MUqb3x1PkmyricVLfx1bQW024wGihaURl5DXLzGZM1bPNOc5zL-ycs3-01gWCe484Q-LI7kRIv2BFDDYnNbNWv8ge5uw0OU_H4R7MxFzzhbmzv0B5wGH7qV11D2BEd3upCU__c5ckC5pvefugUR9-",
+    Serny: "https://psv4.userapi.com/c237331/u260357384/docs/d26/2358cf321bcc/serny.png?extra=_EuSEj6OdqLUSH71qMicQSLVM0bbGWfd-1ZRXuFjq8-Gjp4tzUS31MwlJQpjSzNCEkakm9bTfdH0BXOfylsr1Q2c9cjmITUZANxaSi_KJbNvDZf_4FFFPoBE3GCR46platxuBH_xDyo6k8giZUlTsSrs",
+    Tsitrin: "https://psv4.userapi.com/c237331/u260357384/docs/d34/a56ee0da08bf/Tsitrin.png?extra=DGXejiBXOQ6pmyb3o6p8rgCUWoiRjwthmRrhJsqBPS5twDPNU5u_Rix5NOUxLtfOqkh-eN5JC-mbHaYQOp5NonGvSEquULAzQWa-R5GH37zMFDOiPcast91eG2_C4OQalYgtjz0YKqHXwwZUTvJ8t03-",
+};
+
+const imagesId = {
+    1: 'Bely',
+    2: 'Ametistovy',
+    3: 'Azur',
+    4: 'Cherny',
+    5: 'Fioletovy',
+    6: 'Kobaltovy',
+    7: 'Kofeyny',
+    8: 'Malakhit',
+    9: 'Montana',
+    10: 'Myatny',
+    11: 'Olivych',
+    12: 'Rubinovy_zakaaaaaaat',
+    13: 'Salatovy',
+    14: 'Sapshir',
+    15: 'Serny',
+    16: 'Tsitrin',
+};
