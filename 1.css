@@ -1,0 +1,436 @@
+#myimage {
+    height: 50px;
+    width: 50px;
+}
+#myimage_b_2 {
+    height: 50px;
+    width: 50px;
+}
+#myimageT {
+    height: 350px;
+    width: 950px;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.center_div{
+    left: 50%;
+    margin-left: -500px;
+    position: absolute;
+    width: 1000px;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+.containerT {
+    position: relative;
+    width: 50%;
+  }
+  /* Make the image responsive */
+  .container img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: -10px;
+    left: 14px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 251, 251, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(57deg);
+  } 
+  .container .btn:hover {
+    
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .container .btn2 {
+    position: absolute;
+    top: -14px;
+    left: 44px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(60deg);
+  }
+  
+  .container .btn3:hover {
+    background-color: rgba(252, 252, 252, 0);
+  }
+  .container .btn3 {
+    position: absolute;
+    top: -18px;
+    left: 76px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(65deg);
+  }
+  .container .btn3:hover {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .container .btn4 {
+    position: absolute;
+    top: -21px;
+    left: 110px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(70deg);
+  }
+  .container .btn4:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+    .container .btn5 {
+    position: absolute;
+    top: -21px;
+    left: 143px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(72deg);
+  }
+  .container .btn5:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn6 {
+    position: absolute;
+    top: -18px;
+    left: 174px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(72deg);
+  }
+  .container .btn6:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn7 {
+    position: absolute;
+    top: -8px;
+    left: 200px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(69deg);
+  }
+  .container .btn7:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn8 {
+    position: absolute;
+    top: 5px;
+    left: 224px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(65deg);
+  }
+  .container .btn8:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn9 {
+    position: absolute;
+    top: 14px;
+    left: 249px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(62deg);
+  }
+  .container .btn9:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn10 {
+    position: absolute;
+    top: 22px;
+    left: 273px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(59deg);
+  }
+  .container .btn10:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn11 {
+    position: absolute;
+    top: 28px;
+    left: 294px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(55deg);
+  }
+  .container .btn11:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn12 {
+    position: absolute;
+    top: 37px;
+    left: 308px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(48deg);
+  }
+  .container .btn12:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn13 {
+    position: absolute;
+    top: 49px;
+    left: 313px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(38deg);
+  }
+  .container .btn13:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn14 {
+    position: absolute;
+    top: 53px;
+    left: 319px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(30deg);
+  }
+  .container .btn14:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn15 {
+    position: absolute;
+    top: 49px;
+    left: 329px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(25deg);
+  }
+  .container .btn15:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn16 {
+    position: absolute;
+    top: 43px;
+    left: 338px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(20deg);
+  }
+  .container .btn16:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn17 {
+    position: absolute;
+    top: 25px;
+    left: 353px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(19deg);
+  }
+  .container .btn17:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn18 {
+    position: absolute;
+    top: -2px;
+    left: 371px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(21deg);
+  }
+  .container .btn18:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn19 {
+    position: absolute;
+    top: -48px;
+    left: 392px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(28deg);
+  }
+  .container .btn19:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn20 {
+    position: absolute;
+    top: -96px;
+    left: 412px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(35deg);
+  }
+  .container .btn20:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn21 {
+    position: absolute;
+    top: -116px;
+    left: 427px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(35deg);
+  }
+  .container .btn21:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn22 {
+    position: absolute;
+    top: -157px;
+    left: 445px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(40deg);
+  }
+  .container .btn22:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+  .container .btn23 {
+    position: absolute;
+    top: -165px;
+    left: 464px;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transform: rotate(38deg);
+  }
+  .container .btn23:hover {
+    background-color: rgba(255, 251, 251, 0);
+  }
+
+  .containerT .btnT {
+    position: absolute;
+    top: 50%;
+    left: 100%;  /*располажение*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .containerT .btnT:hover {
+    background-color: rgba(255, 255, 255, 0);
+    background: linear-gradient(360deg, #717272, #717272);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+    .containerT .active {
+        border:3px solid #717272;
+         background-color:#717272;
+    }
+  table {
+    width: 410px;
+    margin: auto;
+ }
+ td:first-child {
+    width: 50px;
+    height: 50px;
+ }
