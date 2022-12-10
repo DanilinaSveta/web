@@ -22,7 +22,6 @@ Array.prototype.map.call(allBtnT, function(item) {
 const allStoneButtons = document.querySelectorAll('.stone-button');
 Array.prototype.map.call(allStoneButtons, function(item) {
     item.addEventListener('click', function() {
-        console.log(this);
         const image = this.querySelector('.my-image');
         image.src = stoneImages[imagesId[col]];
     });
